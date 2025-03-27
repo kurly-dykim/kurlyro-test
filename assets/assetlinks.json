@@ -1,0 +1,19 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kurly.kurlyro.stg",
+      "sha256_cert_fingerprints":
+      ["4B:3E:0C:74:73:9E:DD:6B:65:5D:BF:34:49:82:CE:A7:2A:23:A8:55:93:5F:65:C2:83:FD:4E:6F:0B:4F:3C:32"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kurly.kurlyro",
+      "sha256_cert_fingerprints": ["47:BC:66:AA:8E:68:98:E1:A9:2E:DB:2E:5E:66:BE:6E:72:96:26:76:61:AA:17:14:A7:34:A0:B6:68:75:34:9E"]
+    }
+  }
+]
