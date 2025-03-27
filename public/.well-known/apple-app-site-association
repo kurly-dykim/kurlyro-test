@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "9DL55EF8D3.com.kurly.kurlyro.stage.app",
+        "paths": [ 
+          "/app/dev/*",
+          "/app/stage/*",
+          "/app/qa/*"
+         ]
+      },
+      {
+        "appID": "9DL55EF8D3.com.kurly.kurlyro",
+        "paths": [ 
+          "/app/*"
+         ]
+      }
+    ]
+  }
+}
