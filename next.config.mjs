@@ -9,6 +9,10 @@ const nextConfig = {
                         key: "Content-Type",
                         value: "application/json",
                     },
+                    {
+                        key: 'X-Content-Type-Options',
+                        value: 'nosniff'
+                    }
                 ],
             }
         ]
