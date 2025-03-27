@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "pre-run": "node deeplink.js",
     "build": "npm run pre-run && next build",
-    "start": "npm run pre-run && next start",
+    "start": "next build && next start",
     "lint": "next lint"
   },
   "dependencies": {
