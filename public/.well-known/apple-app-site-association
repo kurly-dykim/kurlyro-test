@@ -1,27 +1,20 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
       {
-        "appID": "9DL55EF8D3.com.kurly.kurlyro.stage.app",
-        "paths": [ 
-          "/app/dev*",
-          "/app/stage*",
-          "/app/qa*"
+        "appIDs": ["9DL55EF8D3.com.kurly.kurlyro.stage.app"],
+         "components": [
+          {"/": "/app/dev*"},
+          {"/": "/app/stage*"},
+          {"/": "/app/qa*"}
          ]
       },
       {
-        "appID": "9DL55EF8D3.com.kurly.kurlyro",
-        "paths": [ 
-          "/app*"
-         ]
+        "appIDs": ["9DL55EF8D3.com.kurly.kurlyro"],
+        "components": [
+          {"/": "/app*"}
+        ]
       }
-    ]
-  },
-  "webcredentials": {
-    "apps": [
-      "9DL55EF8D3.com.kurly.kurlyro",
-      "9DL55EF8D3.com.kurly.kurlyro.stage.app"
     ]
   }
 }
